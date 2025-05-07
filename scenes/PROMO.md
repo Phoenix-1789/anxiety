@@ -14,13 +14,13 @@
 
 `clearText()`
 
-n3: So before we start, how would *you* like to read?
+n3: Okay prima di iniziare come vorresti leggere?
 
 `publish("show_options_bottom")`
 
 # intro-start-2
 
-n3: Now, let's begin our story...
+n3: Ora, iniziamo la nostra storia...
 
 ```
 publish("hide_tabs");
@@ -31,7 +31,7 @@ clearText();
 
 `publish("intro-to-game-2")`
 
-n2: THIS IS A HUMAN
+n2: QUESTO È UN UMANO
 
 (...600)
 
@@ -51,9 +51,9 @@ music('battle', {volume:0.5});
 
 (...300)
 
-n: AND THIS IS THE HUMAN'S ANXIETY
+n: E QUESTA È L'ANSIA DELL'UMANO
 
-n: _YOU_ ARE THE ANXIETY
+n: _TU_ SEI L'ANSIA
 
 (#act1_normal)
 
@@ -66,45 +66,45 @@ sfx("rustle");
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Nope. No, nope, not listening. Gonna check my phone.
+h: No, no, no, non ti sto ascoltando. Guarderò il mio telefono
 
 ```
 sfx("rustle2");
 hong({body:"phone1", mouth:"neutral", eyes:"neutral"})
 ```
 
-n: YOUR JOB IS TO PROTECT YOUR HUMAN FROM *DANGER*
+n: LA TUA MISSIONE È PROTEGGERE L'UMANO DAL *PERICOLO*
 
 `bb({eyes:"look", mouth:"small_lock", body:"fear"})`
 
-b: Gasp! You're scrolling your life away on Twitter! Again!
+b: Gasp! Stai scrollando via la tua vita su Twitter! Di nuovo!
 
 ```
 bb({eyes:"normal", mouth:"normal", body:"normal"});
 hong({eyes:"annoyed"});
 ```
 
-h: Yeah I wonder why I don't just sit and listen to my thoughts more often.
+h: Sì mi chiedo proprio perchò non sto seduta e basta ad ascoltare i miei pensieri più spesso.
 
 `hong({eyes:"neutral"});`
 
-n: QUICK, WARN THEM ABOUT A *DANGER!*
+n: VELOCE, AVVISALA DEL *PERICOLO*
 
 ```
 bb({eyes:"look"});
 ```
 
-[Oh no, look at that horrible news story!](#act1d_news)
+[Oh no, guarda a quell'orrenda notizia di cronaca!](#act1d_news)
 
-[Oh no, is that tweet secretly about *us?*](#act1d_subtweet)
+[Oh no, quel tweet potrebbe riferirsi a *noi?*](#act1d_subtweet)
 
-[Hey, a GIF of a cat drinking milk](#act1d_milk)
+[Hey, una GIF di un gatto che beve del latte](#act1d_milk)
 
 # act1d_milk
 
 `hong({mouth:"smile", eyes:"surprise"});`
 
-h: Heh ya that's cute, I--
+h: Heh sì, è carin--
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -112,7 +112,7 @@ bb({body:"scream"});
 Game.OVERRIDE_TEXT_SPEED = 1.8;
 ```
 
-b: CATS CAN'T DIGEST MILK AND WE'RE TERRIBLE PEOPLE FOR ENJOYING ANIMAL ABUSE
+b: I GATTI NON DIGERISCONO IL LATTE E SIAMO DELLE PERSONE ORRENDE PER TROVARE CARINO L'ABUSO SUGLI ANIMALI
 
 (...200)
 
